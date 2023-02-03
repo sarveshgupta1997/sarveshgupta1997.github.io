@@ -1,2 +1,7 @@
-# dependencies
-/node_modules
+cypress/screenshots
+cypress/videos
+node_modules
+after_spec_results.json
+package-lock.json
+results.json
+submissionData.json
