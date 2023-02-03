@@ -1,12 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarvesh Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/fav_icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/fav_icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/fav_icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/fav_icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/fav_icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/fav_icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/fav_icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/fav_icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/fav_icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/fav_icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/fav_icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images/fav_icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/fav_icons/favicon-16x16.png">
+  <link rel="manifest" href="/images/fav_icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/images/fav_icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="index.css" />
+
+
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <title>AVANISH MANI TRIPATHI</title>
 </head>
+
 <body>
-    <h1>Sarvesh Portfolio</h1>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav id="nav-menu" class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">
+          <div class="logo"><a href="#">Sarvesh <span>Gupta</span></a></div>
+        </a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav-link home active">
+              <i class="uil uil-home"></i>Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav-link about">
+              <i class="uil uil-user nav_icon"></i> About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav-link skills">
+              <i class="uil uil-file-alt nav_icon"></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav-link projects">
+              <i class="uil uil-lightbulb-alt nav_icon"></i>Projects
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav-link contact">
+              <i class="uil uil-message nav_icon"></i> Contact
+            </a>
+          </li>
+          <li class="nav__item">
+            <a id="resume-link-1" href="./Sarvesh-Gupta-Resume.pdf" class="nav-link resume" id="resume_view" download>
+              <i class="uil uil-message nav_icon"></i> Resume
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 id="user-detail-name" class="home__title">
+          Hi,<br />I'am
+          <span class="home__title-color">Sarvesh Gupta</span><br />
+          Full Stack <br>Developer
+        </h1>
+
+        <a id="resume-link-2" href="./Sarvesh-Gupta-Resume.pdf" class="button" download>Resume</a>
+      </div>
+
+      <div id="contact-linkedin" class="home__social">
+        <a href="https://www.linkedin.com/in/sarvesh-gupta-17472211a/" class="home__social-icon"><i
+            class="bx bxl-linkedin"></i></a>
+        <a  id="contact-github" href="https://github.com/sarveshgupta1997" class="home__social-icon"><i class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home-img">
+        <img src="./images/sarvesh.jpg" alt="" />
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about-container bd-grid">
+
+        <div id="user-detail-intro" style="text-align: center">
+          <p class="about-text">
+            Aspiring Full Satck Developer, currently studying at Masai School. Collaborative, team player who is
+            proficient in working with interdisciplinary teams and executing goal-oriented projects. Strongly interested
+            in obtaining a Software Developer position to work on enhancing the product experience.
+          </p>
+          <br />
+          <p>
+            Drop a mail @ <a href="mailto:sarveshgupta14@gmail.com">sarveshgupta14@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Technical Skills</h2>
+
+      <div class="skills-container bd-grid">
+        <div>
+          <h2 class="skills-subtitle">Front-end Skills</h2>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-html5 skills-icon"></i>
+              <span class="skills-name">HTML5</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-css3 skills-icon"></i>
+              <span class="skills-name">CSS3</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-javascript skills-icon"></i>
+              <span class="skills-name">JAVASCRIPT</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 class="skills-subtitle">Back-end Skills</h2>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAcBJREFUSEu1lcFRg1AURe+DTSTOiBWIHaSELA1xQQmxg5RACSkhJWSh6M50YEqgBJwxyEL+dR6Co4HIT5yw5H/eue/d+z+CEz9y4vqwAgxuOS7uZX2MGCuAFzLOE4lPB5gwEoG/TWR5KMSqAy3qhVwJEG8T2RwC6QV4E0aG2BQFMm+ItRCLQzrpBajasynnDhFsc8QKAfGSJ3Jn04kVoIEI4avZ3pQb206sARpVx2CZJxJoqhRqkyxrwDDkmkCWJxINQy5KByubs2EFUPUu8VyWuFbl4iJ6f5DFvzwYhhx9R3JM3/Oq8aj62b9SNLhh4DpYlgYzjWalci3ZL6C+G9MfnGPkGkSlwaJ4krSro9aINPcQjBoDFagjcYiMQNAqIghgsMofZWUFqE7tlMs6hl+ndkxfu9gtoGL2FW727jVZjcUH0uoEe5iLYgSpEAEEJPEKQZZvMe+C9wL6EqKj0z37Zn8QoL4qYghemg8JXMIgPmpEVWJypK3W6+QUb9j8XKuC4SDqGlfbg7qIKnUNAk0OBZkQF51jE1yD8NWPX8GoN3ea3ERTLzcBUgJXhmj/Ml3Ibje7Iqyuij7D/1o/OeATuo7VGe7oSacAAAAASUVORK5CYII=" />
+              <span class="skills-name"> Java</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAi9JREFUSEu1lc9x02AQxX+rXBL5gKkAd4CpIOYGDjM4FWAqiOnAVJBQAaGCiBkiOIoOTAd2B8lBJhfpMStbRkkkyz7km/GMR/r2vf3z9sl44mNPjE8rQWeoseA90DejB9wAM4nEjHma8p3E/FntaSQI32qEcb4GbSxUYmbwMY1txkDd8IjB8qdFZUAtQXiiS4MP+7RPYmqwEPSWsU0bCTpDXWCc7QNe3s2M1wc5vTS2y1oCb4sFXO0NLm6zgNHdD0s6Q/WzgK7/d5x7LQqHmpvxYh8Cwbc8Y3r3y+Zl3NGJJn+v7eIegasF4+tWcPHb3wtuZCTKiKrAZWw41LScw6aCusFKLAymWU5SB/QomYG6LllvdamkKoHL7WUZ5KUvr228a7sO36hXJlFbQedE2oCLxTI2X6rdzkDdTsioVE87Qc5pdVnaWFza6ZJpudFNM9i0KE15vm39q4Q+O3KiakK1KgqHiswKzyG9tlaP8p4HAVcGX6qL5fFFRbFNmmUqXhXeUnfcb0LOzJggPj0EP3ynQXWb/2e6Cpz5oklEy9hOS3zP9uCAY4mRGSPBHxPjR0mshh2lsQ1arcJJ1pdWNi1uBQnisk4AnnmQc474vNVNvX9ZQBRkdN2XJNw+oizfEG4aFxhd/05AUVm/bnfqh7nWdat1VGekYtjFYKunUS3uioBb9/G2PXA7QUya9qZVjoUJrtqw+hnPfMj+2TSRPFTRzhW0be+u71sr2BWo6d4/IUQTKH1yThUAAAAASUVORK5CYII=" />
+              <span class="skills-name">Spring Boot</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAitJREFUSEu1VcF100AUnL++BOmAqQB3AFSAj2DzHqEC7ApiKrBcAUoFcSogB2y4ITowHaQDkoNELtqft1+7equ1ZMVAdFrpaf/8nT8zS3jkhx65Ph4McPKOxwPGkhkjrTC/+0rZQ5rrBTh5wyOlsCTCLCiYgfEp39LuEFA3wJiHUYQzIiRSgHGr7VoxEhCeymfGWmus7r7TdRtQK8CTKS8UsAQwdJtY40Pxja7kvQJfEMk/5rlhRloUOEdGNz5QAyB6y6cgfCbCqGoal2CMifDcbsrKEnPXrdA3QELARwcEYJFv6NKB1ADRhK+I8N7S8bNUSNwg5UQeLQDSPMfKdSsC0ELba0vbrtjSK7OuAeIps3e0rCSsGkoZ8zCOpMiZ61Yzkj9bOncKM+S5GvmGpPY+AOP20AANLQOFtdfttaPUCMHt7QTIczzrHWA15AsinNYiYKyKAmkc47f51g1gj9Y1QM0YqkqutcL8go7qXgDXWTjAek4MEcKA8eOfAFzBeMIzEC6syub5ltZmHXZ89Al804SbBWDCmS/pXoCGYwPvtwH4vxijksKX1iFHU94R8KJ2bOiDFjoac2KJDfEBA7+KDb1s+MAe1yRm2uWD8AR7SWt8YKLCzmcPQDpyQQYsPKDEBFmt8corjaRlSNilB8PO57PDB077JjFlbQJRl0iOiuuGciZsuDS0SZD5PrB0/OWFEyjIGE5piPa1wuy/XZkBztGvvXfy0RWDDfcz0UEoet1ecwAAAABJRU5ErkJggg==" />
+              <span class="skills-name">Hibernate </span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="https://assets.stickpng.com/thumbs/58481057cef1014c0b5e4951.png" alt="">
+              <span class="skills-name">SQL </span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAg1JREFUSEvtlMFt20AQRd+nAsSmDmEqiNyB3QF1i6UAVgWxOrBKEFKB0wFTQXSI6BzlCqIOrFQQH0JCF+4EszGByLIhI4B88gIEDzs78/+fPyP2fLTn/LwU2Knw80qUDmwqcQFkZqxCoJ8kjAWrqlSRntpICRfVXH2H3h3YogmMOwkTxLm/w/hclZq01DYYdAd2XJVa+mU6sJn/TSwSY1SVytOhFTJGQN4kZEmgEIwQP6qKtyx0e/DeeuvvWj1YgNyybpezYGSCY8FRRNjhpppL6cBWglkQMUFi9KqaaTdlZfA1GMX6Stf/NmaDQTo0R78MougEph54h3xJwOWbmHFJwgiLchT1lWaO2qWE+P2qS51sMfCgFmmU6K8cvVhgYFMUk87qmss0ZYm4rec6vm+j7tCsaThqZdpmYJg/EjjVcVUq8964zo3or79p0TKt5xr7ncFM4sacFfysS3mf4tmy6cEHy9e/WXrDdpr8LsDZ84peJ3DbmuTRAk9NuhWXW3aYci7IJFbVXF82GBwObRKdY1zeR/GUoi5VtG5DRsK07c+GRC5PJzBzvYGiRbGrgA8g4gxxUq/5mL7mU9uH7VWRW5amOBufzjd3yRdx6Iz4l2IzWwflGNdNwjQa4NRGwVg+6KL7SONqELknM+hJvIsxxrX5sPk6SVh44sdYPu+y26X1/9y/MNip2t4l+gNzr+QZnGPKggAAAABJRU5ErkJggg==" />
+              <span class="skills-name">AWS</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="https://assets.stickpng.com/thumbs/62cc1b51150d5de9a3dad5f8.png" />
+              <span class="skills-name">Postman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Git Status -->
+    <div id="">
+      <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img
+            src="https://github-profile-trophy.vercel.app/?username=sarveshgupta1997" alt="sarveshgupta1997" /></a> </p>
+    </div>
+
+
+    <div id="github-top-langs">
+      <p align="center"><img align="center"
+          src="https://github-readme-stats.vercel.app/api/top-langs?username=sarveshgupta1997&show_icons=true&locale=en&layout=compact"
+          alt="sarveshgupta1997" /></p>
+    </div>
+
+    <div id="">
+      <p align="center">&nbsp;<img align="center"
+          src="https://github-readme-stats.vercel.app/api?username=sarveshgupta1997&show_icons=true&locale=en"
+          alt="sarveshgupta1997" /></p>
+    </div>
+
+    <div id="github-streak-stats">
+      <p align="center"><img align="center"
+          src="https://github-readme-streak-stats.herokuapp.com/?user=sarveshgupta1997&" alt="sarveshgupta1997" /></p>
+    </div>
+
+    <div class="calendar react-activity-calendar" style="width: 80%;">
+      <!-- Loading stuff -->
+      Loading the data just for you.
+    </div>
+
+
+    </div>
+    <!--===== WORK =====-->
+    <!-- <section class="projects section" id="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-container">
+        <div class="project-img">
+          <img src="https://www.savethestudent.org/uploads/kfc4-1.jpg" alt="" />
+          <p class="project-title">online.kfc.co.in -clone</p>
+          <p class="project-subtitle">
+            KFC is an American fast-food restaurant chain
+            headquartered in Louisville, Kentucky,that specializes in Fried chicken. <br />
+            <br />
+
+            Collaborative project: Accomplished with a team
+            of 5 developers in 7days <br />
+
+            <br />HTML | CSS | Javascript | Github <br />
+            <br />
+            Contribution:-Landing Page | Deals Page | Repo Management
+            <br />
+          </p>
+          <div class="project-btns">
+            <a href="http://github.com/sankarshandev98/for-stick-2556" target="_blank" class="small-btn button">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://symphonious-rolypoly-b8a660.netlify.app/" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img
+            src="https://i0.wp.com/www.opindia.com/wp-content/uploads/2019/09/indianExpressLogo.png?resize=696%2C390&ssl=1"
+            alt="" />
+          <p class="project-title">Indianexpress.com clone</p>
+          <p class="project-subtitle">
+            A news website that brings to users the latest news
+            from all around the world and performs various
+            functions like sign up, log out, subscribe, and much
+            more <br />
+            <br />
+            Collaborative project: Accomplished with a team
+            of 5 developers executed in 6 days
+            <br />
+            <br />HTML | CSS | Javascript | Github <br />
+            <br />
+            Contribution:-Landing Page | India News | Repo Management
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/Raj4709267/Web-19-IndianExpress" target="_blank" class="small-btn button">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://lighthearted-truffle-d27293.netlify.app/index.html" target="_blank"
+              class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-img">
+          <img
+            src="https://i.pcmag.com/imagery/reviews/02lgJEbLOH2Y2tDfRmfiNl6-20.fit_scale.size_1028x578.v1604605476.png"
+            alt="" />
+          <p class="project-title">Toggl-track.com -clone</p>
+          <p class="project-subtitle">
+            Toggl Track is a time tracking software operated by Toggl OÜ, headquartered in Tallinn, Estonia, that offers
+            online time tracking and reporting services through their website along with mobile and desktop
+            applications. Toggl Track tracks time blocks, optionally labeled with a task, a project, and tags. <br />
+            <br />
+
+            Collaborative project: Accomplished with a team
+            of 5 developers in 7days <br />
+
+            <br />HTML | CSS | Javascript | Github <br />
+            <br />
+            Contribution:-Key Feature | Book A Demo | |Pricing | Repo Management
+            <br />
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/avanishmani/toggl-track--clone" target="_blank" class="small-btn button">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://celebrated-bonbon-6262a7.netlify.app/" target="_blank" class="small-btn button">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-img">
+          <img src="https://www.digitalindiagov.in/wp-content/uploads/2021/06/maxresdefault.jpg" alt="" />
+          <p class="project-title">MGNREGA</p>
+          <p class="project-subtitle">
+            Mahatma Gandhi National Rural Employment Guarantee Act 2005 or MNREGA, earlier known as the National Rural
+            Employment Guarantee Act or NREGA, is an Indian labour law and social security measure that aims to
+            guarantee the 'right to work'. <br />
+            <br />
+
+            Solo Console Based project developers in 7days <br />
+
+            <br />JAVA | JDBC | HIBERNATE | GIT <br />
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/avanishmani/Avanish_-MGNREGA" target="_blank" class="small-btn button">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://drive.google.com/file/d/1EVqSN1ankbEXnZPW-fH_CBciRYozQUeS/view" target="_blank"
+              class="small-btn button">
+              Video Persentaion<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="project-img">
+          <img src="./marrs-bank-logo.png" alt="" />
+          <p class="project-title">MARRS Bank</p>
+          <p class="project-subtitle">
+            An developement of RESTful API for an Online Payment Wallet application. This API performs all the
+            fundamental CRUD operations of any Online Wallet Banking platform with user validation at every step. <br />
+            <br />
+
+            An Collabrative Project Consisting Of the 5 Developer Depicting the implementation of the payemnt wallet
+            online transaction platform <br />
+
+            <br />JAVA | JDBC | HIBERNATE | GIT | SPRING<br />
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/mazidul36i/marrsbank" target="_blank" class="small-btn button">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://drive.google.com/file/d/1nGFgKzekZyN2rz5rxfeD6Vmuu4fk23xq/view?usp=sharing" target="_blank"
+              class="small-btn button">
+              Video Persentaion<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!--===== FOOTER + CONTACT=====-->
+    <footer class="footer section" id="contact">
+      <h2 class="section-title">Get in touch</h2>
+      <p class="footer-title">SARVESH GUPTA</p>
+      <div class="footer-social">
+        <a  id="contact-linkedin" href="https://www.linkedin.com/in/sarvesh-gupta-17472211a/" target="_blank" class="footer-icon"><i
+            style="font-size: 148%;" class="bx bxl-linkedin">
+            <br />
+            LinkedIn</i></a>
+        <a id="contact-github" href="https://github.com/sarveshgupta1997" target="_blank" class="footer-icon"><i style="font-size: 148%;"
+            class="bx bxl-github">
+            <br />
+            GitHub</i></a>
+        <a id="contact-email" href="mailto:sarveshgupta14@gmail.com" target="_blank" class="footer-icon"><i style="font-size: 148%;"
+            class="bx bx-mail-send">
+            <br />
+            sarveshgupta14@gmail.com</i></a>
+        <a id="contact-phone" href="tel:+918826107920" target="_blank" class="footer-icon"><i style="font-size: 148%;" class="bx bx-phone">
+            <br />
+            +91-8826107920</i></a>
+      </div>
+
+    </footer>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="index.js"></script>
+
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    </script>
+    <script>
+      // or enable responsive functionality:
+      GitHubCalendar(".calendar", "sarveshgupta1997", { responsive: true });
+
+    </script>
+
 </body>
+
 </html>
