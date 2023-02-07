@@ -368,7 +368,7 @@ img.man-icons {
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
-.skills-names {
+.skills-card {
   display: flex;
   align-items: center;
 }
