@@ -353,6 +353,7 @@ header{
   justify-content: space-between;
   align-items: center;
   position: relative;
+  height: 50px;
   font-weight: var(--font-semi);
   padding: 0.5rem 1rem;
   margin-bottom: var(--mb-4);
@@ -430,6 +431,7 @@ img.man-icons {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
+  padding-bottom: 20px ;
   margin-bottom: 30px ;
 }
 .project-img img {
@@ -452,11 +454,11 @@ img.man-icons {
   font-size: var(--h2-font-size);
 }
 .project-subtitle {
+  margin: auto 2rem 1rem;
   margin-bottom: var(--mb-4);
-  padding-bottom: 3.5rem;
 }
 .small-btn {
-  padding: 0.3rem 1.3rem;
+  padding: 0.4rem 1.3rem;
   font-weight: 400;
   margin: 1rem;
 }
