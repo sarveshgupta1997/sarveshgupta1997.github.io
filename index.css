@@ -682,4 +682,17 @@ color: rgb(63, 160, 63);
     gap: 5%;
     margin: auto;
   }
+  .skills-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    text-align: initial;
+  }
+  .git_three_stats{
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .git_three_stats div:nth-child(2) {
+    margin-top: 23px;
+  }
 }

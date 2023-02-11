@@ -88,7 +88,7 @@ sr.reveal(".contact-input", { interval: 150 });
 // document.querySelector("#resume-link-1").addEventListener("click",function(){
 //     window.open("./Sarvesh-Gupta-Resume.pdf","_blank");
 // });
-// document.querySelector("#resume-link-2").addEventListener("click",function(){
+// document.querySelector("#resume-button-2").addEventListener("click",function(){
 //     window.open("./Sarvesh-Gupta-Resume.pdf","_blank");
 // });
 
