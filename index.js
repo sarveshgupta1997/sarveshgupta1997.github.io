@@ -9,13 +9,13 @@ const showMenu = (toggleId, navId) =>{
         })
     }
 }
-showMenu('nav-toggle','nav-menu')
+showMenu('nav-toggle','nav-menu1')
 
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
-    const navMenu = document.getElementById('nav-menu')
+    const navMenu = document.getElementById('nav-menu1')
     // When we click on each nav__link, we remove the show-menu class
     navMenu.classList.remove('show')
 }
@@ -77,7 +77,7 @@ sr.reveal( ".skills-data", { interval: 150 } );
 // sr.reveal(".skills-img", { delay: 600 });
 
 /*SCROLL projects*/
-sr.reveal( ".project-img", { interval: 150 } );
+sr.reveal( ".project-img", { interval: 50 } );
 
 // SCROLL CONTACT
 
@@ -89,4 +89,12 @@ document.querySelector("#resume-link-1").addEventListener("click",function(){
 });
 document.querySelector("#resume-link-2").addEventListener("click",function(){
     window.open("./Sarvesh-Gupta-Resume.pdf","_blank");
+});
+
+
+var typing=new Typed(".text", {
+    strings: ["", "FULL-STACK", "WEB", "DEVELOPER"],
+    typeSpeed: 100,
+    backSpeed: 40  ,
+    loop: true,
 });
