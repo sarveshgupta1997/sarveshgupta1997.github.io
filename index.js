@@ -78,6 +78,7 @@ sr.reveal( ".skills-data", { interval: 150 } );
 
 /*SCROLL projects*/
 sr.reveal( ".project-img", { interval: 50 } );
+sr.reveal( ".mskill-text", { delay: 50 } );
 
 // SCROLL CONTACT
 
