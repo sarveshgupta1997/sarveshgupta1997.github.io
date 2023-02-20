@@ -92,6 +92,9 @@ sr.reveal(".contact-input", { interval: 150 });
 //     window.open("./Sarvesh-Gupta-Resume.pdf","_blank");
 // });
 
+let resumebtn2=document.getElementById("resume-button-2").addEventListener("click",()=>{
+    window.location.assign("https://drive.google.com/file/d/12sOwKJs6GiZ6e4WMpMRIxAsUWu1P5t5n/view?usp=sharing")
+  })
 
 var typing=new Typed(".text", {
     strings: ["", "FULL-STACK", "WEB", "DEVELOPER"],
