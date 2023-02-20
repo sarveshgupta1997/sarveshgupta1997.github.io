@@ -26,7 +26,7 @@
   --z-back: -10;
   --z-fixed: 100;
 }
-
+/* 
 @media screen and (min-width: 968px) {
   :root {
     --big-font-size: 3.5rem;
@@ -34,7 +34,7 @@
     --normal-font-size: 1rem;
     --smaller-font-size: .875rem;
   }
-}
+} */
 
 /*===== BASE =====*/
 *, ::before, ::after {
@@ -139,7 +139,7 @@ header{
   
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
     top: var(--header-height);
@@ -150,7 +150,7 @@ header{
     background-color: var(--second-color);
     transition: .5s;
   }
-}
+} */
 
 .nav__item {
   margin-bottom: var(--mb-4);
@@ -532,7 +532,7 @@ color: rgb(63, 160, 63);
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .home {
     row-gap: 2rem;
   }
@@ -701,4 +701,4 @@ color: rgb(63, 160, 63);
   .git_three_stats div:nth-child(2) {
     margin-top: 23px;
   }
-}
+} */
