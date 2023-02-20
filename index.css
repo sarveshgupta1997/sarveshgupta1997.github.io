@@ -79,12 +79,12 @@ header{
 }
 
 /*===== CLASS CSS ===== */
-/* .logo_sign{
+.logo_sign{
   font-family: 'Gajraj One', cursive;
-font-family: 'Tangerine', cursive;
-
-  font-size: 25px;
-} */
+  font-family: 'Tangerine', cursive;
+  color: hsl(var(--hue-color), 47%, 60%);
+  font-size: 35px;
+}
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
