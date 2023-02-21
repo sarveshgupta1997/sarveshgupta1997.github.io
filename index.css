@@ -79,10 +79,10 @@ header{
 }
 
 /*===== CLASS CSS ===== */
-.logo_sign{
+.l-header #nav-menu .logo_sign{
   font-family: 'Gajraj One', cursive;
   font-family: 'Tangerine', cursive;
-  color: hsl(var(--hue-color), 47%, 60%);
+  color: #7169C9 !important;
   font-size: 36px;
 }
 .section-title {
