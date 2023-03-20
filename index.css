@@ -538,6 +538,12 @@ color: rgb(63, 160, 63);
   }
   .home-img {
     width: 80%;
+    bottom: auto;
+    margin: auto;
+    right:22px
+  }
+  #about{
+    margin-top:120px; 
   }
   .mainskills {
     width: 100%;
@@ -633,7 +639,7 @@ color: rgb(63, 160, 63);
   }
   .home-img {
     width: 300px;
-    bottom: 40%;
+    bottom: 20%;
   }
   .about__container {
     padding-top: 2rem;
@@ -676,7 +682,7 @@ color: rgb(63, 160, 63);
   }
   .home-img {
     width: 350px;
-    bottom: 35%;
+    bottom: 18%;
   }
   .home-img>img{
     margin-left: 100px;
