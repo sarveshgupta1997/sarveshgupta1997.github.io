@@ -537,13 +537,13 @@ color: rgb(63, 160, 63);
     row-gap: 2rem;
   }
   .home-img {
-    width: 80%;
+    width: 65%;
     bottom: auto;
     margin: auto;
-    right:22px
+    right:50px
   }
   #about{
-    margin-top:120px; 
+    margin-top:140px; 
   }
   .mainskills {
     width: 100%;
