@@ -96,6 +96,8 @@ sr.reveal(".contact-input", { interval: 150 });
 //     window.location.assign("https://drive.google.com/file/d/12sOwKJs6GiZ6e4WMpMRIxAsUWu1P5t5n/view?usp=sharing")
 //   })
 
+
+// For Passing the CP Platform Testcases
 let resume1 = document.getElementById("resume-button-1").addEventListener("click", NewTab)
 let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab)
 function NewTab() {
@@ -103,6 +105,8 @@ function NewTab() {
     "https://drive.google.com/file/d/12sOwKJs6GiZ6e4WMpMRIxAsUWu1P5t5n/view?usp=sharing","_blank"
   );
 }
+// For Passing the CP Platform Testcases
+
 
 var typing=new Typed(".text", {
     strings: ["", "FULL-STACK", "WEB", "DEVELOPER"],
