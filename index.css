@@ -532,7 +532,7 @@ color: rgb(63, 160, 63);
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .home {
     row-gap: 2rem;
   }
