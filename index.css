@@ -543,12 +543,17 @@ color: rgb(63, 160, 63);
     right:50px
   }
   #about{
-    margin-top:140px; 
+    margin-top:180px; 
   }
   .mainskills {
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+  }
+}
+@media screen and (max-width: 368px) {
+  #about{
+    margin-top:120px; 
   }
 }
 
