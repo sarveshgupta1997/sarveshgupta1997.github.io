@@ -98,14 +98,19 @@ sr.reveal(".contact-input", { interval: 150 });
 
 
 // For Passing the CP Platform Testcases
-let resume1 = document.getElementById("resume-button-1").addEventListener("click", NewTab)
-let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab)
-function NewTab() {
-  window.location.assign(
-    "https://drive.google.com/file/d/12sOwKJs6GiZ6e4WMpMRIxAsUWu1P5t5n/view?usp=sharing","_blank"
-  );
-}
+// let resume1 = document.getElementById("resume-button-1").addEventListener("click", NewTab)
+// let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab)
+// function NewTab() {
+//   window.location.assign(
+//     "https://drive.google.com/file/d/12sOwKJs6GiZ6e4WMpMRIxAsUWu1P5t5n/view?usp=sharing","_blank"
+//   );
+// }
 // For Passing the CP Platform Testcases
+
+
+document.querySelector("#resume-button-1").addEventListener("click",()=>{
+    window.open("https://drive.google.com/file/d/12sOwKJs6GiZ6e4WMpMRIxAsUWu1P5t5n/view?usp=sharing")
+})
 
 
 var typing=new Typed(".text", {
