@@ -489,9 +489,9 @@ img.man-icons {
   transition: 1s;
 }
 
-.work__img img:hover {
+/* .work__img img:hover {
   transform: scale(1.1);
-}
+} */
 
 /* ===== FOOTER =====*/
 .footer {
