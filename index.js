@@ -119,3 +119,139 @@ var typing=new Typed(".text", {
     backSpeed: 40  ,
     loop: true,
 });
+
+let project_WorkoutFitnessCenter = document.getElementById("project_WorkoutFitnessCenter");
+let project_CloudTv = document.getElementById("project_CloudTv");
+let project_TypeBattle = document.getElementById("project_TypeBattle");
+let project_OpenChat = document.getElementById("project_OpenChat");
+let project_GrabYourFit = document.getElementById("project_GrabYourFit");
+let project_WMB = document.getElementById("project_WMB");
+let project_PigGame = document.getElementById("project_PigGame");
+
+let project_WorkoutFitnessCenter_Arr = ["./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter1.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter2.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter3.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter4.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter5.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter6.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter7.png", "./images/projects/WorkoutFitnessCenter/WorkoutFitnessCenter8.png"];
+let project_CloudTv_Arr = ["./images/projects/CloudTv/CloudTv1.png", "./images/projects/CloudTv/CloudTv2.png", "./images/projects/CloudTv/CloudTv3.png", "./images/projects/CloudTv/CloudTv4.png", "./images/projects/CloudTv/CloudTv5.png"];
+let project_TypeBattle_Arr = ["./images/projects/TypeBattle/TypeBattle1.png", "./images/projects/TypeBattle/TypeBattle2.png", "./images/projects/TypeBattle/TypeBattle3.png", "./images/projects/TypeBattle/TypeBattle4.png", "./images/projects/TypeBattle/TypeBattle5.png"];
+let project_OpenChat_Arr = ["./images/projects/OpenChat/OpenChat1.png", "./images/projects/OpenChat/OpenChat2.png", "./images/projects/OpenChat/OpenChat3.png", "./images/projects/OpenChat/OpenChat4.png"];
+let project_GrabYourFit_Arr = ["./images/projects/GrabYourFit/GrabYourFit1.png", "./images/projects/GrabYourFit/GrabYourFit2.png", "./images/projects/GrabYourFit/GrabYourFit3.png", "./images/projects/GrabYourFit/GrabYourFit4.png", "./images/projects/GrabYourFit/GrabYourFit5.png", "./images/projects/GrabYourFit/GrabYourFit6.png", "./images/projects/GrabYourFit/GrabYourFit7.png", "./images/projects/GrabYourFit/GrabYourFit8.png", "./images/projects/GrabYourFit/GrabYourFit9.png"];
+let project_WMB_Arr = ["./images/projects/WMB/WMB1.png", "./images/projects/WMB/WMB2.png", "./images/projects/WMB/WMB3.png", "./images/projects/WMB/WMB4.png", "./images/projects/WMB/WMB5.png", "./images/projects/WMB/WMB6.png"];
+let project_PigGame_Arr = ["./images/projects/PigGame/PigGame1.png", "./images/projects/PigGame/PigGame2.png", "./images/projects/PigGame/PigGame3.png", "./images/projects/PigGame/PigGame4.png", "./images/projects/PigGame/PigGame5.png", "./images/projects/PigGame/PigGame6.png", "./images/projects/PigGame/PigGame7.png", "./images/projects/PigGame/PigGame8.png", "./images/projects/PigGame/PigGame9.png", "./images/projects/PigGame/PigGame10.png", "./images/projects/PigGame/PigGame11.png", "./images/projects/PigGame/PigGame12.png", "./images/projects/PigGame/PigGame13.png", "./images/projects/PigGame/PigGame14.png"];
+
+project_WorkoutFitnessCenter.addEventListener("mouseover",()=>{ 
+    let count=0;
+    let intv = setInterval(()=>{
+        if(count<project_WorkoutFitnessCenter_Arr.length-1){
+            count++;
+            project_WorkoutFitnessCenter.src=project_WorkoutFitnessCenter_Arr[count];
+        }else{            
+            count=0;
+            project_WorkoutFitnessCenter.src=project_WorkoutFitnessCenter_Arr[count];
+        }
+        console.log(count)
+    },1000);
+
+    setTimeout(()=>{        
+        clearInterval(intv);
+    },8000);
+})
+project_CloudTv.addEventListener("mouseover",()=>{ 
+    let count=0;
+    let intv = setInterval(()=>{
+        if(count<project_CloudTv_Arr.length-1){
+            count++;
+            project_CloudTv.src=project_CloudTv_Arr[count];
+        }else{            
+            count=0;
+            project_CloudTv.src=project_CloudTv_Arr[count];
+        }
+        console.log(count)
+    },1000);
+
+    setTimeout(()=>{        
+        clearInterval(intv);
+    },5000);
+})
+project_TypeBattle.addEventListener("mouseover",()=>{ 
+    let count=0;
+    let intv = setInterval(()=>{
+        if(count<project_TypeBattle_Arr.length-1){
+            count++;
+            project_TypeBattle.src=project_TypeBattle_Arr[count];
+        }else{            
+            count=0;
+            project_TypeBattle.src=project_TypeBattle_Arr[count];
+        }
+        console.log(count)
+    },1000);
+
+    setTimeout(()=>{        
+        clearInterval(intv);
+    },5000);
+})
+project_OpenChat.addEventListener("mouseover",()=>{ 
+    let count=0;
+    let intv = setInterval(()=>{
+        if(count<project_OpenChat_Arr.length-1){
+            count++;
+            project_OpenChat.src=project_OpenChat_Arr[count];
+        }else{            
+            count=0;
+            project_OpenChat.src=project_OpenChat_Arr[count];
+        }
+        console.log(count)
+    },1000);
+
+    setTimeout(()=>{        
+        clearInterval(intv);
+    },4000);
+})
+project_GrabYourFit.addEventListener("mouseover",()=>{ 
+    let count=0;
+    let intv = setInterval(()=>{
+        if(count<project_GrabYourFit_Arr.length-1){
+            count++;
+            project_GrabYourFit.src=project_GrabYourFit_Arr[count];
+        }else{            
+            count=0;
+            project_GrabYourFit.src=project_GrabYourFit_Arr[count];
+        }
+        console.log(count)
+    },1000);
+
+    setTimeout(()=>{        
+        clearInterval(intv);
+    },9000);
+})
+project_WMB.addEventListener("mouseover",()=>{ 
+    let count=0;
+    let intv = setInterval(()=>{
+        if(count<project_WMB_Arr.length-1){
+            count++;
+            project_WMB.src=project_WMB_Arr[count];
+        }else{            
+            count=0;
+            project_WMB.src=project_WMB_Arr[count];
+        }
+        console.log(count)
+    },1000);
+
+    setTimeout(()=>{        
+        clearInterval(intv);
+    },6000);
+})
+project_PigGame.addEventListener("mouseover",()=>{ 
+    let count=0;
+    let intv = setInterval(()=>{
+        if(count<project_PigGame_Arr.length-1){
+            count++;
+            project_PigGame.src=project_PigGame_Arr[count];
+        }else{            
+            count=0;
+            project_PigGame.src=project_PigGame_Arr[count];
+        }
+        console.log(count)
+    },1000);
+
+    setTimeout(()=>{        
+        clearInterval(intv);
+    },14000);
+})

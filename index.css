@@ -450,10 +450,10 @@ img.man-icons {
   object-fit: cover;  
   margin-bottom: 1rem;
 }
-.project-img img:hover {
+/* .project-img img:hover {
   overflow: hidden;
   transform: scale(1.1);
-}
+} */
 .project-container p {
   margin: auto 1rem 1rem;
 }
