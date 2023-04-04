@@ -45,35 +45,35 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 1500,
-    delay: 150,
+    duration: 1000,
+    delay: 100,
      reset: true
 });
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
-sr.reveal('.home-img, .about__subtitle, .about__text, .skills__img',{delay: 150}); 
-sr.reveal('.home__social-icon',{ interval: 150}); 
-sr.reveal('.skills__data, .work__img, .contact__input',{interval: 150}); 
+sr.reveal('.home-img, .about__subtitle, .about__text, .skills__img',{delay: 100}); 
+sr.reveal('.home__social-icon',{ interval: 100}); 
+sr.reveal('.skills__data, .work__img, .contact__input',{interval: 100}); 
 
 /*SCROLL HOME*/
 sr.reveal( ".home-title", {} );
-sr.reveal( ".button", { delay: 150 } );
-sr.reveal( ".home-img", { delay: 150 } );
-sr.reveal( ".home-social-icon", { interval: 150 } );
+sr.reveal( ".button", { delay: 100 } );
+sr.reveal( ".home-img", { delay: 100 } );
+sr.reveal( ".home-social-icon", { interval: 100 } );
 
 /*SCROLL ABOUT*/
 sr.reveal( ".about-img", {} );
-sr.reveal( ".about-subtitle", { delay: 150 } );
-sr.reveal( ".about-text", { delay: 150 } );
+sr.reveal( ".about-subtitle", { delay: 100 } );
+sr.reveal( ".about-text", { delay: 100 } );
 
 // Scross main skills mainskills
-sr.reveal( ".mainskills", { interval: 150 } );
-sr.reveal( ".mskill-img", { delay: 150 } );
-sr.reveal( ".mskill-text", { delay: 150 } );
+sr.reveal( ".mainskills", { interval: 100 } );
+sr.reveal( ".mskill-img", { delay: 100 } );
+sr.reveal( ".mskill-text", { delay: 100 } );
 /*SCROLL SKILLS*/
 sr.reveal( ".skills-subtitle", {} );
 sr.reveal( ".skills-text", {} );
-sr.reveal( ".skills-data", { interval: 150 } );
+sr.reveal( ".skills-data", { interval: 100 } );
 // sr.reveal(".skills-img", { delay: 600 });
 
 /*SCROLL projects*/
@@ -83,7 +83,7 @@ sr.reveal( ".skills-data", { interval: 150 } );
 // SCROLL CONTACT
 
 
-sr.reveal(".contact-input", { interval: 150 });
+sr.reveal(".contact-input", { interval: 100 });
 
 // document.querySelector("#resume-link-1").addEventListener("click",function(){
 //     window.open("./Sarvesh-Gupta-Resume.pdf","_blank");
@@ -107,7 +107,7 @@ sr.reveal(".contact-input", { interval: 150 });
 // }
 // For Passing the CP Platform Testcases
 
-
+    
 document.querySelector("#resume-button-1").addEventListener("click",()=>{
     window.open("https://drive.google.com/file/d/12sOwKJs6GiZ6e4WMpMRIxAsUWu1P5t5n/view?usp=sharing")
 })
@@ -146,7 +146,6 @@ project_WorkoutFitnessCenter.addEventListener("mouseover",()=>{
             count=0;
             project_WorkoutFitnessCenter.src=project_WorkoutFitnessCenter_Arr[count];
         }
-        console.log(count)
     },1000);
 
     setTimeout(()=>{        
@@ -163,7 +162,6 @@ project_CloudTv.addEventListener("mouseover",()=>{
             count=0;
             project_CloudTv.src=project_CloudTv_Arr[count];
         }
-        console.log(count)
     },1000);
 
     setTimeout(()=>{        
@@ -180,7 +178,6 @@ project_TypeBattle.addEventListener("mouseover",()=>{
             count=0;
             project_TypeBattle.src=project_TypeBattle_Arr[count];
         }
-        console.log(count)
     },1000);
 
     setTimeout(()=>{        
@@ -197,7 +194,6 @@ project_OpenChat.addEventListener("mouseover",()=>{
             count=0;
             project_OpenChat.src=project_OpenChat_Arr[count];
         }
-        console.log(count)
     },1000);
 
     setTimeout(()=>{        
@@ -214,7 +210,6 @@ project_GrabYourFit.addEventListener("mouseover",()=>{
             count=0;
             project_GrabYourFit.src=project_GrabYourFit_Arr[count];
         }
-        console.log(count)
     },1000);
 
     setTimeout(()=>{        
@@ -231,7 +226,6 @@ project_WMB.addEventListener("mouseover",()=>{
             count=0;
             project_WMB.src=project_WMB_Arr[count];
         }
-        console.log(count)
     },1000);
 
     setTimeout(()=>{        
@@ -248,7 +242,6 @@ project_PigGame.addEventListener("mouseover",()=>{
             count=0;
             project_PigGame.src=project_PigGame_Arr[count];
         }
-        console.log(count)
     },1000);
 
     setTimeout(()=>{        
