@@ -53,11 +53,11 @@ const sr = ScrollReveal({
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home-img, .about__subtitle, .about__text, .skills__img',{delay: 100}); 
 sr.reveal('.home__social-icon',{ interval: 100}); 
-sr.reveal('.skills__data, .work__img, .contact__input',{interval: 100}); 
+sr.reveal('.skills__data, .work__img, .contact__input',{interval: 50    }); 
 
 /*SCROLL HOME*/
 sr.reveal( ".home-title", {} );
-sr.reveal( ".button", { delay: 100 } );
+// sr.reveal( ".button", { delay: 100 } );
 sr.reveal( ".home-img", { delay: 100 } );
 sr.reveal( ".home-social-icon", { interval: 100 } );
 
@@ -67,13 +67,13 @@ sr.reveal( ".about-subtitle", { delay: 100 } );
 sr.reveal( ".about-text", { delay: 100 } );
 
 // Scross main skills mainskills
-sr.reveal( ".mainskills", { interval: 100 } );
-sr.reveal( ".mskill-img", { delay: 100 } );
-sr.reveal( ".mskill-text", { delay: 100 } );
+sr.reveal( ".mainskills", { interval: 50 } );
+sr.reveal( ".mskill-img", { delay: 50 } );
+sr.reveal( ".mskill-text", { delay: 50 } );
 /*SCROLL SKILLS*/
 sr.reveal( ".skills-subtitle", {} );
 sr.reveal( ".skills-text", {} );
-sr.reveal( ".skills-data", { interval: 100 } );
+sr.reveal( ".skills-data", { interval: 50 } );
 // sr.reveal(".skills-img", { delay: 600 });
 
 /*SCROLL projects*/
