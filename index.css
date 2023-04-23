@@ -713,3 +713,8 @@ color: rgb(63, 160, 63);
     margin-top: 23px;
   }
 }
+
+
+.hide{
+  display:none;
+}
