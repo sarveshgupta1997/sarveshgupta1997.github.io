@@ -93,7 +93,7 @@ sr.reveal(".contact-input", { interval: 100 });
 // });
 
 // let resumebtn2=document.getElementById("resume-button-2").addEventListener("click",()=>{
-//     window.location.assign("https://drive.google.com/file/d/11wvmkqEtTYnvfAp1-qdeUuqB69G8qavS/view?usp=sharing")
+//     window.location.assign("https://drive.google.com/file/d/1WwyZM4B90dXvVFvoe5K5WVgnGRB25qY4/view?usp=sharing")
 //   })
 
 
@@ -102,14 +102,14 @@ sr.reveal(".contact-input", { interval: 100 });
 // let resume2 = document.getElementById("resume-button-2").addEventListener("click", NewTab)
 // function NewTab() {
 //   window.location.assign(
-//     "https://drive.google.com/file/d/11wvmkqEtTYnvfAp1-qdeUuqB69G8qavS/view?usp=sharing","_blank"
+//     "https://drive.google.com/file/d/1WwyZM4B90dXvVFvoe5K5WVgnGRB25qY4/view?usp=sharing","_blank"
 //   );
 // }
 // For Passing the CP Platform Testcases
 
     
 document.querySelector("#resume-button-1").addEventListener("click",()=>{
-    window.open("https://drive.google.com/file/d/11wvmkqEtTYnvfAp1-qdeUuqB69G8qavS/view?usp=sharing")
+    window.open("https://drive.google.com/file/d/1WwyZM4B90dXvVFvoe5K5WVgnGRB25qY4/view?usp=sharing")
 })
 
 
